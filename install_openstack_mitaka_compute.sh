@@ -324,7 +324,6 @@ echo -e "\033[32m 3) Finish Install neutron \033[0m"
 		echo "Usage: $0 [1|2|3|4|5|6|help]"
 		exit
 	;;
-
 esac
 done
 #done
