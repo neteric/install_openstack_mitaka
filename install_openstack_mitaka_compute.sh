@@ -16,7 +16,6 @@ if [ $? -ne 0 ];then
 	exit
 fi
 }
-
 ############ Install_Functions ##########
 Init_system(){
 #stop firewalld and selinux
