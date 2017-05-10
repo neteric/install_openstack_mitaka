@@ -302,24 +302,24 @@ case $MenuChoose in
 		Init_system
 echo -e "\033[36m -----------Menu------------\033[0m"
 echo -e "\033[32m 1) Finish init the system \033[0m"
-echo -e "\033[31m 5) Install nova \033[0m"
-echo -e "\033[31m 6) Install neutron \033[0m"
+echo -e "\033[31m 2) Install nova \033[0m"
+echo -e "\033[31m 3) Install neutron \033[0m"
 	;;
 	2)
 		echo -e "\033[32m Install_nova... \033[0m"
 		Install_nova
 echo -e "\033[36m -----------Menu------------\033[0m"
 echo -e "\033[32m 1) Finish init the system \033[0m"
-echo -e "\033[32m 5) Finish install  nova \033[0m"
-echo -e "\033[31m 6) Install neutron \033[0m"
+echo -e "\033[32m 2) Finish install  nova \033[0m"
+echo -e "\033[31m 3) Install neutron \033[0m"
 	;;
 	3)
 		echo -e "\033[32m Install_neutron... \033[0m"
 		Install_neutron
 echo -e "\033[36m -----------Menu------------\033[0m"
 echo -e "\033[32m 1) Finish init the system \033[0m"
-echo -e "\033[32m 5) Finish Install nova \033[0m"
-echo -e "\033[32m 6) Finish Install neutron \033[0m"
+echo -e "\033[32m 2) Finish Install nova \033[0m"
+echo -e "\033[32m 3) Finish Install neutron \033[0m"
 	;;
 	*)
 		echo "Usage: $0 [1|2|3|4|5|6|help]"
