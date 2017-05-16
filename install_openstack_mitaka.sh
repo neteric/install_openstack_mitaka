@@ -1,6 +1,7 @@
 #!/bin/bash
 #auto install openstack
 #by Eric.Zhang 2017.4
+#change a time
 ############ base_Functions #############
 end_install(){
 if [ $? -eq 0 ];then
